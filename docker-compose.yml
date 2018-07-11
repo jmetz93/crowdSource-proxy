@@ -1,0 +1,9 @@
+verison '3.1'
+
+services:
+  proxy:
+    image: jacobmetzinger/proxy-server
+    environment:
+      PORT: 9000
+    ports:
+      - "9000":"9000"
